@@ -1,0 +1,187 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  background-color: #f4f4f4;
+  line-height: 1.6;
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Navigation Bar */
+.navbar {
+  background: #000;
+  color: white;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #E00122;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #E00122;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #ffffff; /* White background fallback */
+  background-image: 
+    url('ucbt-logo-pattern.jpg'),
+    url('ucbt-logo-pattern.jpg'),
+    url('ucbt-logo-pattern.jpg'),
+    url('ucbt-logo-pattern.jpg'),
+    url('ucbt-logo-pattern.jpg'),
+    url('ucbt-logo-pattern.jpg'),
+    url('ucbt-logo-pattern.jpg'),
+    url('ucbt-logo-pattern.jpg'),
+    url('ucbt-logo-pattern.jpg'),
+    url('ucbt-logo-pattern.jpg');
+  background-repeat: no-repeat;
+  background-size: 80px, 150px, 120px, 100px, 180px, 90px, 140px, 160px, 130px, 110px; /* Random sizes */
+  background-position: 
+    10% 20%, 80% 30%, 30% 70%, 60% 50%, 90% 80%, 
+    5% 90%, 75% 10%, 40% 40%, 50% 10%, 45% 75%; /* Added upper middle and middle down */
+  color: white;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-banner {
+  background-color: #000000; /* Black banner for text */
+  color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 80%;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.hero-banner h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-banner p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.btn-primary {
+  padding: 0.8rem 1.5rem;
+  background-color: #E00122;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #C0001F;
+}
+
+
+/* About Section */
+/* About Section */
+.about {
+  background-color: #000000; /* Black background for the section */
+  color: white; /* White text for readability */
+  padding: 4rem 2rem; /* Add space around the section */
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  color: #E00122; /* Red heading */
+  margin-bottom: 1rem;
+}
+
+.about p {
+  max-width: 700px;
+  margin: 0 auto 1.5rem; /* Centered text */
+  font-size: 1.2rem;
+  line-height: 1.8; /* Easy-to-read spacing */
+}
+
+.btn-primary {
+  padding: 0.8rem 1.5rem;
+  background-color: #E00122; /* Button red color */
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #C0001F; /* Darker red on hover */
+}
+
+
+/* Footer */
+/* Footer */
+.footer {
+  background-color: #000000; /* Black background */
+  color: white; /* White text */
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer p {
+  margin-bottom: 1rem;
+}
+
+.footer-links {
+  list-style: none; /* Remove bullets */
+  display: flex; /* Align links horizontally */
+  justify-content: center; /* Center links */
+  gap: 1.5rem; /* Space between links */
+}
+
+.footer-links a {
+  color: white; /* White text for links */
+  text-decoration: none; /* Remove underlines */
+  font-size: 1rem;
+}
+
+.footer-links a:hover {
+  color: #E00122; /* Red hover effect */
+}
